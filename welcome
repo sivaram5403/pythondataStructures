@@ -1,1 +1,33 @@
-print("welcome to python learning ")
+from numpy import *
+# arr = array([1,2,3,4])
+# print(arr)
+# print(arr.dtype)
+#
+# arr = linspace(1,15,15)
+# print(arr)
+
+# arr = arange(1,25,3)
+#
+# print(arr)
+
+# arr = array([1,2,3,4])
+# newarr =array([i+5 for i in arr])
+# print(newarr)
+#
+# Arr2 = array([
+#     [1,2,3,4,5,6],
+#     [4,5,6,7,8,9]
+# ])
+# print(Arr2)
+# print(Arr2.dtype)
+# print(Arr2.size)
+#
+# arr3 = Arr2.flatten()
+# print(arr3)
+# arr4=arr3.reshape(3,4)
+# print(arr4)
+
+m=matrix('1 2 3 ; 5 7 4 ; 6 3 7 ; 36 33 46')
+
+print(m)
+print(m.min())
